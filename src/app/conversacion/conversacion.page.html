@@ -1,0 +1,82 @@
+<ion-content>
+  <div class="main_content_div">
+    <ion-buttons slot="start" class="menu_btn">
+      <ion-menu-button color="light"></ion-menu-button>
+    </ion-buttons>
+
+    
+<ion-content [fullscreen]="true">
+  <div class="user_div">
+    <div class="first_div">
+      <ion-label class="TRAFFIC">Mantente al dia</ion-label>
+      <ion-label class="bienvenido">Conversacion</ion-label>
+    </div>
+    <div class="user_back" [style.backgroundImage]="'url(assets/image/conver.png)'"></div>
+  
+  </div>
+  <div class="content_div">
+    <ion-label class="mapa">Lo que pasa hoy</ion-label>
+    <div class="header ion-padding">
+      <div class="info">
+    <ion-avatar>
+      <img src="https://i.pravatar.cc/243" alt="">
+    </ion-avatar>
+    <span class="details">
+      <h1>Roman</h1>
+    </span>
+  </div>
+  </div>
+
+  <div class="conversation ion-padding">
+  <div class="chat-section" id="chat">
+  <div class="chat">
+    <div class="yours messages">
+      <div class="message-other">
+        Hola
+      </div>
+      <div class="message-other">
+        Hubo un choque en independencia
+      </div>
+      <div class="last-message-other">
+        <ion-avatar>
+          <img src="https://i.pravatar.cc/545" alt="">
+        </ion-avatar>
+        <div class="message last">
+          En que calle fue?
+        </div>
+      </div>
+      <span>
+        1:40 PM
+      </span>
+    </div>
+    <div class="mine messages">
+      <div class="message">
+        Muchas gracias
+      </div>
+      <div class="message last">
+        Tengan mucho cuidado, acabo de pasar por ahi y tienen parado el trafico
+      </div>
+      <span>
+        <ion-icon name="checkmark-done-outline"></ion-icon>2:00 PM
+      </span>
+    </div>
+  </div>
+    </div>
+    <div class="message-input">
+    <ion-input placeholder="Escribe tu mensage..."></ion-input>
+    <div class="send-button">
+      <ion-icon name="send"></ion-icon>
+    </div>
+  </div> 
+  
+
+</div> 
+   
+
+  
+
+ 
+ 
+  </div>
+
+</ion-content>
