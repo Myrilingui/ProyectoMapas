@@ -96,3 +96,8 @@ ion-content{
     float: right; /* Hace que la imagen esté en el lado derecho */
     margin-left: 10px; /* Espacio entre la imagen y el contenido */
   }
+
+  /* Agrega un margen inferior o un separador en cada publicacion*/
+  ion-item.publicacion-item {
+  margin-bottom: 16px; /* Ajusta este valor según tus preferencias */
+  }
